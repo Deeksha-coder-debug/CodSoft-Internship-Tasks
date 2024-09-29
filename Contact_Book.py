@@ -7,7 +7,7 @@ def ask():
         opt=message()
         return opt
     elif(a=='n' or a=='no'):
-        print("Contact Book is closed")
+        print("Closing Contact Book")
         exit()  #we can also use quit() or sys.exit() of sys module
     else:
         print("Invalid answer\nTry again ...")
